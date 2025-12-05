@@ -371,7 +371,7 @@ namespace BackupWizard
 
                         if (File.Exists(logFilePath))
                         {
-                            MessageBox.Show($"Backup completed with WARNINGS. One or more files were skipped during the copy process (likely locked by VFP).\n\nDetails saved in: {Path.GetFileName(logFilePath)}\n\nZIP file location:\n{fullZipFileLocation}",
+                            MessageBox.Show($"Backup completed with WARNINGS. One or more files were skipped during the copy process (likely locked).\n\nDetails saved in: {Path.GetFileName(logFilePath)}\n\nZIP file location:\n{fullZipFileLocation}",
                                             "Success with Warnings", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                         else
@@ -408,4 +408,5 @@ namespace BackupWizard
             }
         }
     }
+
 }
