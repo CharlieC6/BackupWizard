@@ -12,6 +12,6 @@ Reason for this is that the logic flow will copy first a temp folder from the ta
 So basically we didn't touch the target folder. 
 <br>
 <br>
-Downside is that as the target folder's size gets bigger, the time it'll take the process takes longer too due to the same reaason above.
+Downside is that as the target folder's size gets bigger, the time it'll take the process takes longer too due to the same reason above.
 <br>
 <br>
